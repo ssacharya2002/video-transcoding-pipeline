@@ -1,0 +1,22 @@
+{
+  "name": "video-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.620.0",
+    "aws-lambda": "^1.0.7",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.142",
+    "@types/node": "^22.1.0",
+    "tsc-watch": "^6.2.0"
+  }
+}
